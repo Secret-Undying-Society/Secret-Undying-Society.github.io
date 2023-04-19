@@ -18,7 +18,8 @@ body {
 
 .centered * {
     color: #C4122E;
-    text-shadow: white 1px 0 10px;
+    text-shadow: white 1px 0 1px;
+    background-color: black;
 }
 
 .centered img {
@@ -29,4 +30,23 @@ body {
 
 .centered a {
     font-weight: bold;
+}
+
+.skeleton {
+    position: relative;
+    text-align: center;
+}
+
+.skeleton button {
+    width: 200px;
+    height: 200px;
+    transform: translateY(-150px);
+    background-color: white;
+    margin: 0 40px 0 40px;
+}
+
+.skeleton button:hover {
+    cursor: pointer;
+    background-color: #C4122E;
+    color: white;
 }
