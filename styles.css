@@ -40,6 +40,7 @@ body {
 .skeleton button {
     width: 200px;
     height: 200px;
+    font-size: 60px;
     transform: translateY(-150px);
     background-color: white;
     margin: 0 40px 0 40px;
